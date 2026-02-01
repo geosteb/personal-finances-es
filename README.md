@@ -12,5 +12,5 @@ Este proyecto nace de la necesidad de automatizar el cálculo de impuestos para 
 2. Colócalos en la carpeta `/data`.
 3. Ejecuta el script:
    ```bash
-   python main.py
+   Calculo_renta_DEGIRO_COINBASE_FIFO.py
 4. Sigue los pasos del script.
