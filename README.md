@@ -19,6 +19,7 @@ Necesitas tener **Python 3.x** instalado.
    pip install -r requirements.txt
 
 📖 Cómo usarlo
+
 Exporta tus datos:
 DEGIRO: Ve a Estado de cuenta > Exportar (formato CSV).
 Coinbase: Genera el reporte de transacciones (formato CSV).
