@@ -18,29 +18,32 @@ Necesitas tener **Python 3.x** instalado.
    ```bash
    pip install -r requirements.txt
 
-📖 Cómo usarlo
+## 📖 Cómo usarlo
 
-Exporta tus datos:
+### 1. Exporta tus datos
+* **DEGIRO:** Ve a *Estado de cuenta > Exportar* (selecciona formato `.csv`).
+* **Coinbase:** Genera el reporte de transacciones (selecciona formato `.csv`).
 
-DEGIRO: Ve a Estado de cuenta > Exportar (formato CSV).
+### 2. Organización
+Recomiendo guardar tus archivos descargados en la carpeta `/data` de este proyecto para tenerlos localizados, aunque puedes tenerlos en cualquier lugar de tu PC.
 
-Coinbase: Genera el reporte de transacciones (formato CSV).
+### 3. Ejecución
+Abre una terminal en la carpeta principal del proyecto y ejecuta el siguiente comando:
 
-Organización:
-
-Recomiendo guardar tus archivos .csv en la carpeta /data de este proyecto para tenerlos a mano.
-
-Ejecución: Abre una terminal en la carpeta del proyecto y ejecuta:
-
-Bash
+```bash
 python src/main.py
-(Asegúrate de que el archivo python se llame main.py o ajusta el comando al nombre que le hayas puesto).
+```
 
-Interacción:
+### 4. Interacción
 El script te pedirá el año a fiscalizar (ej. 2025).
-Cuando te pida los archivos, simplemente arrastra el archivo .csv desde tu carpeta a la ventana de la terminal y pulsa Enter.
+
+Cuando te pida la ruta de los archivos, simplemente arrastra el archivo .csv desde tu carpeta a la ventana de la terminal y pulsa Enter. El script limpiará automáticamente las comillas o rutas extrañas.
 
 ⚠️ Aviso Legal
-Este software es una herramienta de ayuda técnica para facilitar el cálculo de datos masivos. No constituye asesoramiento fiscal profesional.
-Los tramos del IRPF pueden variar según la Comunidad Autónoma o cambios legislativos.
-Se recomienda encarecidamente verificar los resultados obtenidos antes de presentar la declaración de la Renta.
+Descargo de responsabilidad:
+
+Este software es una herramienta de ingeniería diseñada para facilitar el cálculo masivo de datos. No constituye asesoramiento fiscal profesional.
+
+Los tramos del IRPF pueden variar según la Comunidad Autónoma o cambios legislativos anuales.
+
+Se recomienda encarecidamente verificar los resultados obtenidos antes de presentar la declaración de la Renta oficial.
