@@ -21,13 +21,17 @@ Necesitas tener **Python 3.x** instalado.
 📖 Cómo usarlo
 
 Exporta tus datos:
+
 DEGIRO: Ve a Estado de cuenta > Exportar (formato CSV).
+
 Coinbase: Genera el reporte de transacciones (formato CSV).
 
 Organización:
+
 Recomiendo guardar tus archivos .csv en la carpeta /data de este proyecto para tenerlos a mano.
 
 Ejecución: Abre una terminal en la carpeta del proyecto y ejecuta:
+
 Bash
 python src/main.py
 (Asegúrate de que el archivo python se llame main.py o ajusta el comando al nombre que le hayas puesto).
