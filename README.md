@@ -1,4 +1,4 @@
-# 📊 Calculadora Fiscal FIFO (España) - Crypto & Bolsa
+# 📊 Calculadora Fiscal FIFO (España) - DEGIRO & COINBASE
 
 Este proyecto automatiza el cálculo de ganancias y pérdidas patrimoniales para la declaración de la Renta en España, procesando reportes de **DEGIRO** y **Coinbase**.
 
