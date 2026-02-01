@@ -39,7 +39,8 @@ El script te pedirá el año a fiscalizar (ej. 2025).
 
 Cuando te pida la ruta de los archivos, simplemente arrastra el archivo .csv desde tu carpeta a la ventana de la terminal y pulsa Enter. El script limpiará automáticamente las comillas o rutas extrañas.
 
-⚠️ Aviso Legal
+
+## ⚠️ Aviso Legal
 Descargo de responsabilidad:
 
 Este software es una herramienta de ingeniería diseñada para facilitar el cálculo masivo de datos. No constituye asesoramiento fiscal profesional.
